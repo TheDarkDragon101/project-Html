@@ -1,0 +1,77 @@
+body, html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://www.courant.com/resizer/OdaiWOmPEUKQP2RlJ1zTpP4j8nY=/415x233/top/www.trbimg.com/img-5c0033c0/turbine/hc-1543517116-pl3aqkijhv-snap-image");
+    height: 80%;
+}
+
+.bgimg-2 {
+    background-image: url("../Pictures/cap7/e4346c_65c3814ee1534358b897aa62b90a585a.webp");
+    height: 80%;
+}
+
+.bgimg-3 {
+    background-image: url("../Pictures/cap7/12-10-horace-wells-surgery-1.png");
+    height: 80%;
+}
+
+.bgimg-4 {
+    background-image: url("../Pictures/cap7/c0483294-800px-wm.jpg") ;
+    height: 80%;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+
+
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+
+}

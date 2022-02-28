@@ -1,0 +1,117 @@
+body,
+html {
+    background-color: grey;
+    font-family: 'Luxurious Roman', cursive;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    background-color: white;
+    width: 700px;
+    position: relative;
+    left: 230px;
+}
+
+.bgimg-1 {
+    background-image: url("../Pictures/cap1/proxy.webp");
+    min-height: 105%;
+}
+
+.bgimg-2 {
+    background-image: url("https://imgsrv2.voi.id/eca49Cy2hue0dEDHHMvSVFSRgoIATCTngXonEyxZfl4/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy9mOTM5Njk0MS1jZjY5LTQ5MGMtYTQ5ZS0wMmYxYTcwYmY1NWEvMjAyMDAzMDcxMzI4LW1haW4uY3JvcHBlZF8xNTgzNTYyNTQxLmpwZWc.jpg");
+    top: 25px;
+    min-height: 80%;
+}
+
+.bgimg-3 {
+    background-image: url("https://www.history.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDgyOTM5OTgzNTgz/alexander-graham-bell-making-telephone-call.jpg");
+    top: 25px;
+    min-height: 80%;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+
+.p1 {
+    position: relative;
+    top: 500px;
+}
+
+.p2 {
+    position: relative;
+    top: 50px;
+}
+
+.pic2 {
+    position: relative;
+    left: 450px;
+    top: 70px;
+}
+
+.pic5 {
+    position: relative;
+    top: 40px;
+    left: 450px;
+}
+
+.pic7 {
+    position: relative;
+    top: 40px;
+    left: 400px;
+}
+
+.pic8 {
+    position: relative;
+    top: 40px;
+    left: 450px;
+}
+
+.pic9 {
+    position: relative;
+    top: 80px;
+    left: 270px;
+}
+
+.home{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color:burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+    top: 50px;
+    
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}

@@ -1,0 +1,256 @@
+body {
+    border-top: 50px solid gray;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: wheat;
+    
+}
+.border-top {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.overall {
+    border-radius: 20px;
+    position: relative;
+    bottom: 58px;
+    border: 1px solid gray;
+    background-color: white;
+    width: auto;
+    height: 950px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #666666;
+    background-image: url('https://pub-static.fotor.com/assets/projects/pages/ce45d160-6b18-11e9-b702-6b13b7f9d8f7_8144ea20-9891-487a-8c50-a6fbd1a2c0e8_thumb.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.person1 {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#name1 {
+    position: relative;
+    left: 50px;
+    top: 175px;
+
+}
+
+.pic1 {
+    position: relative;
+    left: 25px;
+
+
+}
+
+.person2 {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic2 {
+    position: relative;
+    left: 25px;
+
+}
+
+#name2 {
+    position: relative;
+    left: 35px;
+    top: 175px;
+}
+
+.persona3 {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic3 {
+    position: relative;
+    left: 25px;
+}
+
+#name3 {
+    position: relative;
+    left: 60px;
+    top: 175px
+}
+
+.persona4 {
+    position: relative;
+    left: 925px;
+    bottom: 665px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic4 {
+    position: relative;
+    left: 25px;
+}
+
+#name4 {
+    position: relative;
+    left: 50px;
+    top: 175px
+}
+
+.persona5 {
+    position: relative;
+    left: 455px;
+    bottom: 890px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic5 {
+    position: relative;
+    left: 25px;
+}
+
+#name5 {
+    position: relative;
+    left: 65px;
+    top: 175px
+}
+
+.persona6 {
+    position: relative;
+    left: 455px;
+    bottom: 890px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic6 {
+    position: relative;
+    left: 25px;
+}
+
+#name6 {
+    position: relative;
+    left: 60px;
+    top: 175px
+}
+
+.persona7 {
+    position: relative;
+    left: 455px;
+    bottom: 890px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic7 {
+    position: relative;
+    left: 25px;
+}
+
+#name7 {
+    position: relative;
+    left: 60px;
+    top: 175px
+}
+
+.persona8 {
+    position: relative;
+    left: 925px;
+    bottom: 1112px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic8 {
+    position: relative;
+    left: 25px;
+}
+
+#name8 {
+    position: relative;
+    left: 25px;
+    top: 175px
+}
+
+.persona9 {
+    position: relative;
+    left: 455px;
+    bottom: 1100px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic9 {
+    position: relative;
+    left: 25px;
+}
+
+#name9 {
+    position: relative;
+    left: 50px;
+    top: 175px
+}
+
+.persona10 {
+    position: relative;
+    left: 925px;
+    bottom: 1780px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 1px solid lightskyblue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.pic10 {
+    position: relative;
+    left: 25px;
+}
+
+#name10 {
+    position: relative;
+    left: 40px;
+    top: 175px
+}

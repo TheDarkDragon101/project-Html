@@ -1,0 +1,99 @@
+body, html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6,
+.bgimg-7 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("../Pictures/cap9/Plane-2.jpg");
+    min-height: 80%;
+}
+
+.bgimg-2 {
+    background-image: url("../Pictures/cap9/919304-img.rhnr0b.1p.jpg");
+    min-height: 80%;
+}
+
+.bgimg-3 {
+    background-image: url("https://th-thumbnailer.cdn-si-edu.com/KVIqb6In3LyWrKY28_PX2i0R8-g=/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Wright-SI-2003-19429~A-631.jpg");
+    min-height: 80%;
+}
+
+.bgimg-4 {
+    background-image: url("../Pictures/cap9/919304-img.rhnr0d.3p.jpg");
+    min-height: 80%;
+}
+
+.bgimg-5 {
+    background-image: url("https://webapp2.wright.edu/web1/newsroom/files/2013/09/wright_bros_day.jpg");
+    min-height: 80%;
+}
+
+.bgimg-6 {
+    background-image: url("../Pictures/cap9/wright-brothers-first-flight-reconsidered (1).jpg");
+    min-height: 80%;
+}
+
+.bgimg-7 {
+    background-image: url("https://daytonunknown.files.wordpress.com/2014/01/wrightbrothers.jpg");
+    min-height: 80%;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+
+.cen {
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6,
+    .bgimg-7 {
+        background-attachment: scroll;
+    }
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+
+}

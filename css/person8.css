@@ -1,0 +1,91 @@
+body, html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://addicted2success.com/wp-content/uploads/2018/08/NEW.jpg");
+    min-height: 80%;
+}
+
+.bgimg-2 {
+    background-image: url("https://www.theeducationmagazine.com/wp-content/uploads/2020/04/Sir-Issac-Newton.jpg");
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url("http://englishpluspodcast.com/wp-content/uploads/2021/04/Episode-303-Do-You-Know-Sir-Isaac-Newton.jpg");
+    min-height: 100%;
+}
+.bgimg-4{
+    background-image: url("");
+    min-height: 100%;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+.p1{
+    text-align: center;
+}
+.pic3 {
+    position: relative;
+    left: 180px;
+}
+
+.pic5 {
+    position: relative;
+    left: 200px
+}
+
+.pic6 {
+    position: relative;
+    left: 450px
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3, 
+    .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+    top: 35px;
+
+}

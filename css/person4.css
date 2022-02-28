@@ -1,0 +1,98 @@
+body,html{
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bgimg-1 {
+    background-image: url("https://www.biography.com/.image/t_share/MTgwOTkyMzYzODEwNzkyNTM2/gettyimages-666932578.jpg");
+    min-height: 80%;
+}
+
+.bgimg-2{
+    background-image: url("https://canary.contestimg.wish.com/api/webimage/5e8856c92edca35f41f55335-large.jpg?cache_buster=8f39a52679ef0a64c149747cb38b60dc");
+    min-height: 80%;
+   
+}
+.bgimg-3{
+    background-image: url("https://c8.alamy.com/comp/HRKMX0/nikola-tesla-serbian-american-inventor-HRKMX0.jpg");
+    min-height: 80%;
+}
+.bgimg-4{
+    background-image: url("https://poderdoeusuperior623494653.files.wordpress.com/2022/02/nikola-e-white-dove.png?w=648");
+    min-height: 100%;
+}
+
+.top{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    text-indent: 3em;
+    line-height:1.6;
+    font-size: 23px;
+}
+.pic{
+    position: relative;
+    left: 448px;
+}
+.pic1{
+    position: relative;
+    left: 400px;
+}
+.pic2{
+    position: relative;
+    left: 400px;
+}
+.pic3{
+    position: relative;
+    left: 250px;
+}
+.pic4{
+    position: relative;
+    left: 300px;
+}
+.pic5{
+    position: relative;
+    left: 350px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5 {
+      background-attachment: scroll;
+    }
+  }
+  .home{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color:burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+    
+}

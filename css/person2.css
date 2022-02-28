@@ -1,0 +1,79 @@
+body,
+html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://t1.blockdit.com/photos/2019/07/5d2365fa3efcd42d2b32e0d3_800x0xcover_U5UYzweU.jpg");
+    min-height: 80%;
+}
+
+.top {
+    text-align: center;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+.pic1 {
+    position: relative;
+    left: 500px;
+}
+
+.pic2 {
+    position: relative;
+    left: 500px;
+}
+
+.pic3 {
+    position: relative;
+    left: 350px;
+}
+.pic4{
+    position: relative;
+    left: 350px;
+}
+.pic5{
+    position: relative;
+    left: 350px;
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}

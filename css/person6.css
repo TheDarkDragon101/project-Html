@@ -1,0 +1,84 @@
+body, html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://www.meteorologiaenred.com/wp-content/uploads/2020/05/Albert-Einstein.jpeg");
+    height: 80%;
+}
+
+.bgimg-2 {
+    background-image: url("https://img3.goodfon.com/wallpaper/nbig/5/5f/albert-einstein-albert-6866.jpg");
+    min-height: 100%;
+}
+.bgimg-3{
+    background-image: url("https://www.open.edu/openlearncreate/pluginfile.php/395022/theme_openlearncreate/image/0/einstein%20%281%29.jpg");
+    min-height: 80%;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+
+.pic {
+    position: relative;
+    left: 448px
+}
+
+.pic5 {
+    position: relative;
+    left: 400px
+}
+
+.top8 {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+
+}

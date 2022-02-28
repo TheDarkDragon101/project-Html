@@ -1,0 +1,108 @@
+body, html {
+    background-color: rgb(136, 132, 133);
+    font-family: 'Luxurious Roman', cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("https://i.insider.com/5cae3e24d4206005f509a87a?width=700");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("../Pictures/cap10/2020_jun22_lastsupper.jpg");
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url("https://www.davincisanfrancisco.com/wp-content/uploads/2020/04/0001-4.jpg");
+    min-height: 100%;
+}
+
+.bgimg-4 {
+    background-image: url("https://terrastudy.com/images/schools/Italia/LeonardodV/gallery_florence/Terra_Study_Scuola_Leonardo_Vinche_Florence%20(8).jpg");
+    min-height: 100%;
+}
+
+.bgimg-5 {
+    background-image: url("https://res.cloudinary.com/https-www-isango-com/image/upload/f_auto/t_m_Prod/v7682/europe/italy/milan/3848.jpg");
+    min-height: 100%;
+}
+.bgimg-6{
+    background-image: url("https://idsb.tmgrup.com.tr/ly/uploads/images/2020/10/08/63562.jpg");
+    min-height: 100%;
+
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-indent: 3em;
+    line-height: 1.6;
+    font-size: 23px;
+}
+
+.cen {
+    text-align: center;
+}
+
+.pic1 {
+    position: relative;
+    left: 300px
+}
+
+.pic2 {
+    position: relative;
+    left: 50px;
+}
+
+.pic3 {
+    position: relative;
+    left: 325px;
+}
+
+.home {
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color: burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+    top: 35px;
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3,
+    .bgimg-4,
+    .bgimg-5,
+    .bgimg-6 {
+        background-attachment: scroll;
+    }
+}
