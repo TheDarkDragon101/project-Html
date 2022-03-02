@@ -254,3 +254,16 @@ body {
     left: 40px;
     top: 175px
 }
+.welcome{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 20px;
+    position: relative;
+    width: auto;
+    background-color:burlywood;
+    height: auto;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 20px;
+    top: 500px;
+    
+}
